@@ -1,0 +1,302 @@
+// Global styles
+html,
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Circular Std', sans-serif;
+    position: relative;
+}
+
+header,
+section,
+footer {
+    width: 100%;
+    float: left;
+}
+
+.mh-100 {
+    min-height: 100vh;
+}
+
+a {
+    color: $text-primary;
+    text-decoration: none;
+    @include transition(ease, 0.3s);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $text-primary;
+    font-family: 'audreyregular', sans-serif;
+    letter-spacing: -4px;
+
+    span {
+        font-family: 'Circular Std', sans-serif;
+    }
+}
+
+.btn-primary {
+    border: none;
+    color: $text-primary;
+
+    &:hover {
+        border: none;
+        color: $text-primary;
+        -webkit-box-shadow: 0px 0px 10px -2px rgb(153, 153, 153);
+        -moz-box-shadow: 0px 0px 10px -2px rgb(153, 153, 153);
+        box-shadow: 0px 0px 10px -2px rgb(153, 153, 153);
+    }
+}
+
+.py-60 {
+    padding: 60px 0;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.py-30 {
+    padding: 30px 0;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.whatsapp {
+    @include whatsapp-button;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    @include transition(ease, 0.2s);
+
+    #logo-navbar {
+        width: 120px;
+        @include transition(ease, 0.2s);
+    }
+
+    a {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    nav {
+        ul {
+            margin-bottom: 0;
+        }
+    }
+
+    .btn-primary {
+        border: 1px solid $text-primary;
+
+        &:hover {
+            border: 1px solid $text-primary;
+            text-decoration: none;
+        }
+    }
+
+    #mburger {
+        @include font-size(1.8rem);
+
+        &:hover,
+        &:focus {
+            // color: ;
+        }
+    }
+}
+
+.navbar-scroll {
+    background-color: $primary;
+    padding: 10px 30px !important;
+    -webkit-box-shadow: 0px 4px 10px -5px rgb(153, 153, 153);
+    -moz-box-shadow: 0px 4px 10px -5px rgb(153, 153, 153);
+    box-shadow: 0px 4px 10px -5px rgb(153, 153, 153);
+    @include transition(ease, 0.3s);
+
+    #logo-navbar {
+        width: 130px !important;
+    }
+
+    #mburger {
+        // color:;
+    }
+}
+
+#mapa {
+    line-height: 0;
+    
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+#jumbotron {
+    background: rgb(247,209,215);
+    background: linear-gradient(90deg, rgba(247,209,215,1) 0%, rgba(249,218,224,1) 70%);
+    color: $text-primary;
+    @include font-size(1.6rem);
+    
+    h1 {
+        @include font-size(4rem);
+    }
+    --mask:
+        radial-gradient(22.36rem at 50% calc(100% - 30.00rem),#000 101%,#0000 101%) calc(50% - 20rem) 0/40rem 100%,
+        radial-gradient(22.36rem at 50% calc(100% + 20.00rem),#0000 1010%,#000 101%) 50% calc(100% - 10rem)/40rem 100% repeat-x;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+}
+
+#quien-soy {
+    margin-top: -150px;
+}
+
+#que-hago {
+    padding: 100px 60px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#descanso-1 {
+    min-height: 400px;
+    background: transparent;
+}
+
+#mis-servicios {
+    padding: 100px 0;
+
+    h1 {
+        @include font-size(4rem);
+    }
+
+    .servicio {
+        background-color: #F1F1F1;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 350px;
+        padding: 60px;
+        text-align: center;
+
+        img {
+            max-width: 100px;
+            height: auto;
+        }
+
+        h2 {
+            line-height: 1.9rem;
+
+            span {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+.descanso-2 {
+    padding: 100px 0;
+
+    h1 {
+        @include font-size(4rem);
+        line-height: 1.4rem;
+    }
+
+    h2 {
+        @include font-size(3rem);
+
+        span {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+#por-que-yo {
+    padding: 100px 0;
+
+    h1 {
+        @include font-size(4rem);
+    }
+}
+
+#testimonios {
+    padding: 100px 0;
+
+    h1 {
+        @include font-size(4rem);
+    }
+
+    .swiper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 10px 10px 60px;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        -webkit-box-shadow: 5px 5px 8px 1px rgba(0,0,0,0.49);
+        -moz-box-shadow: 5px 5px 8px 1px rgba(0,0,0,0.49);
+        box-shadow: 5px 5px 8px 1px rgba(0,0,0,0.49);
+
+        a {
+            width: 100%;
+            float: left;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+footer {
+    background: rgb(247,209,215);
+    background: linear-gradient(90deg, rgba(247,209,215,1) 0%, rgba(249,218,224,1) 70%);
+    padding: 100px 0 60px;
+
+    a {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    #social {
+        @include font-size(1.8rem);
+    }
+
+    hr {
+        border-top: 2px solid $text-primary;
+        opacity: 1;
+    }
+}

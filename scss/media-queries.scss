@@ -1,0 +1,114 @@
+// No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { ... }`
+
+// Small devices (landscape phones, 576px and up)
+@include media-breakpoint-up(sm) {
+    #quien-soy {
+        margin-top: -130px;
+    }
+
+    #mis-servicios {
+        .servicio {
+            h2 {
+                span {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+    .descanso-2 {
+        h2 {
+            span {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+    #jumbotron {
+        min-height: 54vh;
+        
+        .container,
+        .row {
+            min-height: inherit;
+        }
+    }
+
+    #quien-soy {
+        margin-top: -120px;
+    }
+
+    #mis-servicios {
+        .servicio {
+            h2 {
+                span {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+
+    .descanso-2 {
+        h2 {
+            span {
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+    h1 {
+        line-height: 4rem;
+    }
+
+    #jumbotron {
+        min-height: 64vh;
+    }
+
+    #que-hago {
+        padding: 100px 60px;
+    }
+
+    #mis-servicios {
+        .servicio {
+            h2 {
+                span {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+
+    .descanso-2 {
+        position: relative;
+
+        h2 {
+            span {
+                font-size: 2rem;
+            }
+        }
+
+        #foto-gila {
+            @include background('../images/foto-gila.png', center, contain);
+            position: absolute;
+            bottom: 0;
+            right: 120px;
+            width: 237px;
+            height: 300px;
+        }
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@include media-breakpoint-up(xxl) {
+
+}

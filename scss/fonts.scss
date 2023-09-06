@@ -1,0 +1,41 @@
+// Fonts
+$fa-font-path: "../fonts/webfonts" !default;
+
+@import '../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+@import '../node_modules/@fortawesome/fontawesome-free/scss/regular';
+@import '../node_modules/@fortawesome/fontawesome-free/scss/solid';
+@import '../node_modules/@fortawesome/fontawesome-free/scss/brands';
+
+@font-face {
+    font-family: 'Circular Std Book';
+    src: url('../fonts/CircularStd-Book.woff2') format('woff2'),
+        url('../fonts/CircularStd-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('../fonts/CircularSpotifyText-Light.woff2') format('woff2'),
+        url('../fonts/CircularSpotifyText-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'circular_stdmedium';
+    src: url('../fonts/circular-std-medium-500_2-webfont.woff2') format('woff2'),
+         url('../fonts/circular-std-medium-500_2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'audreyregular';
+    src: url('../fonts/audrey-normal-webfont.woff2') format('woff2'),
+         url('../fonts/audrey-normal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
