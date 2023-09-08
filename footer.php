@@ -1,4 +1,4 @@
-	<footer>
+	<footer id="contacto">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-lg-5 offset-lg-1 my-auto text-center text-lg-end">

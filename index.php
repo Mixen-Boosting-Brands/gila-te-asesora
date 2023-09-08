@@ -188,7 +188,7 @@
         </div>
     </section>
 
-    <section class="descanso-2 parallax-window" data-parallax="scroll" data-image-src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/bg-descanso-2.png">
+    <section id="trabaja-a-mi-lado" class="descanso-2 parallax-window" data-parallax="scroll" data-image-src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/bg-descanso-2.png">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 my-auto text-center">

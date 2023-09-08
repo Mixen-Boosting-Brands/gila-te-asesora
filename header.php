@@ -34,26 +34,20 @@
             <nav>
                 <ul class="list-unstyled">
                     <li>
-                        <a class="anchor" id="btn-nav-1" href="#">Sobre mí</a>
+                        <a class="anchor" id="btn-nav-1" href="<?php if( is_home() ): ?>#quien-soy<?php else: ?><?php echo esc_url( home_url() ); ?>#quien-soy<?php endif; ?>">Sobre mí</a>
                     </li>
                     <li>
-                        <a class="anchor" id="btn-nav-2" href="#">Mis servicios</a>
+                        <a class="anchor" id="btn-nav-2" href="<?php if( is_home() ): ?>#mis-servicios<?php else: ?><?php echo esc_url( home_url() ); ?>#mis-servicios<?php endif; ?>">Mis servicios</a>
                     </li>
                     <li>
-                        <a class="anchor" id="btn-nav-3" href="#">¿Por qué yo?</a>
+                        <a class="anchor" id="btn-nav-3" href="<?php if( is_home() ): ?>#por-que-yo<?php else: ?><?php echo esc_url( home_url() ); ?>#por-que-yo<?php endif; ?>">¿Por qué yo?</a>
                     </li>
                     <li>
-                        <a class="anchor" id="btn-nav-4" href="#">Trabaja a mi lado</a>
-                    </li>
-                    <li>
-                        <a class="anchor" id="btn-nav-5" href="#"></a>
-                    </li>
-                    <li>
-                        <a class="anchor" id="btn-nav-6" href="#"></a>
+                        <a class="anchor" id="btn-nav-4" href="<?php if( is_home() ): ?>#trabaja-a-mi-lado<?php else: ?><?php echo esc_url( home_url() ); ?>#trabaja-a-mi-lado<?php endif; ?>">Trabaja a mi lado</a>
                     </li>
                 </ul>
             </nav>
-            <a href="#" class="anchor btn btn-primary rounded-pill" id="btn-contacto">Déjame asesorarte</a>
+            <a href="<?php if( is_home() ): ?>#contacto<?php else: ?><?php echo esc_url( home_url() ); ?>#contacto<?php endif; ?>" class="anchor btn btn-primary rounded-pill" id="btn-contacto">Déjame asesorarte</a>
             <div id="social">
                 <ul class="list-inline">
                     <li class="list-inline-item">
@@ -98,27 +92,27 @@
                     <nav class="d-none d-lg-block">
                         <ul class="list-inline">
                             <li class="list-inline-item">
-                                <a class="btn btn-primary rounded-pill" href="#">
+                                <a class="btn btn-primary rounded-pill" href="<?php if( is_home() ): ?>#contacto<?php else: ?><?php echo esc_url( home_url() ); ?>#contacto<?php endif; ?>">
                                     Déjame asesorarte
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#">
+                                <a href="<?php if( is_home() ): ?>#quien-soy<?php else: ?><?php echo esc_url( home_url() ); ?>#quien-soy<?php endif; ?>">
                                     Sobre mí
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#">
+                                <a href="<?php if( is_home() ): ?>#mis-servicios<?php else: ?><?php echo esc_url( home_url() ); ?>#mis-servicios<?php endif; ?>">
                                     Mis servicios
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#">
+                                <a href="<?php if( is_home() ): ?>#por-que-yo<?php else: ?><?php echo esc_url( home_url() ); ?>#por-que-yo<?php endif; ?>">
                                     ¿Por qué yo?
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#">
+                                <a href="<?php if( is_home() ): ?>#trabaja-a-mi-lado<?php else: ?><?php echo esc_url( home_url() ); ?>#trabaja-a-mi-lado<?php endif; ?>">
                                     Trabaja a mi lado
                                 </a>
                             </li>
