@@ -1,3 +1,5 @@
+<?php get_header(); ?>
+
 	<section id="jumbotron" class="pt-60">
         <div class="container">
             <div class="row">
@@ -202,3 +204,5 @@
             </div>
         </div>
     </section>
+
+<?php get_footer(); ?>
