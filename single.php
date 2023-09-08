@@ -21,7 +21,7 @@
                             <div class="col-10 offset-1 col-lg-9 offset-lg-0">
 							<?php if ( have_posts()) : while ( have_posts() ) : the_post(); ?>
                                 <h1><?php the_title(); ?></h1>
-                                <p class="small date text-muted">Por: Juan Pablo Ayala | <?php the_date( 'l, F j, Y' ); ?> a la(s) <?php the_time(); ?></p>
+                                <p class="small date text-muted">Por: Gila Granillo | <?php the_date( 'l, F j, Y' ); ?> a la(s) <?php the_time(); ?></p>
                                 <?php the_content(); ?>
 								<?php edit_post_link(); // Always handy to have Edit Post Links available. ?>
 							<?php endwhile; ?>
