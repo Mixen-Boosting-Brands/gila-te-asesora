@@ -41,7 +41,7 @@
                 <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="col-md-4 my-auto text-md-end">
                     <div class="row">
                         <div class="col left">
-                        <h1><span>Te</span></h1>
+                        	<h1>Te</h1>
                             <h1>recomiendo estos</h1>
                             <h1>artículos</h1>
                             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo-footer.png" alt="" id="logo">
