@@ -46,14 +46,14 @@
                     <p data-aos="fade-up" data-aos-once="true" data-aos-duration="750" data-aos-delay="500">Cada interacción contigo es una oportunidad para brindarte un servicio excepcional y cercano. Mi objetivo es que te sientas comprendido(a), valorado(a) y empoderado(a) en cada paso del camino.</p>
                 </div>
                 <div class="col-lg-6 my-auto text-center">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-que-hago.png" alt="Foto de Gila conversando con clientes" class="img-fluid mb-5 mb-lg-0" data-aos="fade-up" data-aos-once="true" data-aos-duration="750" data-aos-delay="750">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-como-lo-hago.png" alt="Foto de Gila conversando con clientes" class="img-fluid mb-5 mb-lg-0" data-aos="fade-up" data-aos-once="true" data-aos-duration="750" data-aos-delay="750">
                 </div>
                 <div class="col-lg-6 my-auto">
                     <h1 data-aos="fade-up" data-aos-once="true" data-aos-duration="750"><span>¿</span>Para quién lo hago?</h1>
                     <p data-aos="fade-up" data-aos-once="true" data-aos-duration="750" data-aos-delay="250">Lo hago para personas que desean alcanzar una seguridad de su patrimonio en pos del futuro de su familia, que quieren sentirse poderosos y capaces de superar cualquier adversidad.</p>
                 </div>
                 <div class="col-lg-6 my-auto text-center">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-que-hago.png" alt="Foto de Gila conversando con clientes" class="img-fluid mb-5 mb-lg-0" data-aos="fade-up" data-aos-once="true" data-aos-duration="750" data-aos-delay="500">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-para-quien-lo-hago.webp" alt="Foto de Gila conversando con clientes" class="img-fluid mb-5 mb-lg-0" data-aos="fade-up" data-aos-once="true" data-aos-duration="750" data-aos-delay="500">
                 </div>
             </div>
         </div>
