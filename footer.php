@@ -28,12 +28,12 @@
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://www.instagram.com/" target="_blank">
+                            <a href="https://www.instagram.com/gilateasesora/" target="_blank">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://www.tiktok.com/" target="_blank">
+                            <a href="https://www.tiktok.com/@gilateasesora" target="_blank">
                                 <i class="fab fa-tiktok"></i>
                             </a>
                         </li>
