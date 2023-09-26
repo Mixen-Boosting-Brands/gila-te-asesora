@@ -33,7 +33,7 @@
 
     <section id="que-hago" class="py-60">
         <div class="container-fluid">
-            <div class="row d-flex flex-nowrap">
+            <div class="row d-flex flex-lg-nowrap">
                 <div class="col-lg-6 my-auto">
                     <h1 data-aos="fade-up" data-aos-once="true" data-aos-duration="750"><span>¿</span>Qué hago?</h1>
                     <p data-aos="fade-up" data-aos-once="true" data-aos-duration="750" data-aos-delay="250">A través de Gila te asesora, te ofrezco una asesoría integral y personalizada. No solo te proporciono los mejores consejos en el ámbito de los seguros y encuentro la solución más adecuada para ti, sino que también te acompaño  en tu crecimiento personal.</p>
