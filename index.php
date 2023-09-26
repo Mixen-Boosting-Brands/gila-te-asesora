@@ -141,7 +141,7 @@
         </div>
     </section>
 
-    <section id="testimonios" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/bg-testimonios.png">
+    <!-- section id="testimonios" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/bg-testimonios.png">
         <div class="container">
             <div class="row mb-5">
                 <div class="col text-center">
@@ -150,7 +150,6 @@
             </div>
             <div class="row mb-5">
                 <div class="col-12">
-                    <!-- Swiper -->
                     <div class="swiper testimonios" data-aos="fade-up" data-aos-once="true" data-aos-duration="750" data-aos-delay="500">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -186,7 +185,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section -->
 
     <section id="trabaja-a-mi-lado" class="descanso-2 parallax-window" data-parallax="scroll" data-image-src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/bg-descanso-2.png">
         <div class="container">
