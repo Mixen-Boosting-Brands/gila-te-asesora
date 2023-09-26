@@ -164,16 +164,13 @@ header {
     h1 {
         @include font-size(4rem);
     }
-    --mask:
-        radial-gradient(22.36rem at 50% calc(100% - 30.00rem),#000 101%,#0000 101%) calc(50% - 20rem) 0/40rem 100%,
-        radial-gradient(22.36rem at 50% calc(100% + 20.00rem),#0000 1010%,#000 101%) 50% calc(100% - 10rem)/40rem 100% repeat-x;
-    -webkit-mask: var(--mask);
-            mask: var(--mask);
 }
 
+/*
 #quien-soy {
     margin-top: -150px;
 }
+*/
 
 #que-hago {
     padding: 100px 60px;
