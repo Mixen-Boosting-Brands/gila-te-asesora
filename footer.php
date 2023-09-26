@@ -10,7 +10,7 @@
                     <h3 data-aos="fade-up" data-aos-once="true" data-aos-duration="750" data-aos-delay="250">Contacto</h3>
                     <ul class="list-unstyled" data-aos="fade-up" data-aos-once="true" data-aos-duration="750" data-aos-delay="500">
                         <li>
-                            <a href="tel:+526144952241">
+                            <a href="https://api.whatsapp.com/send?phone=+526144952241&text=Quiero%20ponerme%20en%20contacto%20con%20Gila.%20Vengo%20desde%20la%20p%C3%A1gina%20web" target="_blank">
                                 <i class="fa-solid fa-phone"></i> 614 495 2241
                             </a>
                         </li>
@@ -22,11 +22,11 @@
                     </ul>
                     <h3 data-aos="fade-up" data-aos-once="true" data-aos-duration="750" data-aos-delay="750">Sígueme</h3>
                     <ul id="social" class="list-inline" data-aos="fade-up" data-aos-once="true" data-aos-duration="750" data-aos-delay="1000">
-                        <li class="list-inline-item">
+                        <!-- li class="list-inline-item">
                             <a href="https://www.facebook.com/" target="_blank">
                                 <i class="fab fa-facebook"></i>
                             </a>
-                        </li>
+                        </li -->
                         <li class="list-inline-item">
                             <a href="https://www.instagram.com/gilateasesora/" target="_blank">
                                 <i class="fab fa-instagram"></i>
@@ -48,7 +48,7 @@
         </div>
     </footer>
 
-    <a href="https://wa.me/526144952241?text=Hola%20Gila,%20necesito%20información." class="whatsapp" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=+526144952241&text=Quiero%20ponerme%20en%20contacto%20con%20Gila.%20Vengo%20desde%20la%20p%C3%A1gina%20web" class="whatsapp" target="_blank">
         <i class="fab fa-whatsapp whatsapp-icon"></i>
     </a>
 

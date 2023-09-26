@@ -166,7 +166,7 @@ header {
     }
 }
 
-/*
+/*--
 #quien-soy {
     margin-top: -150px;
 }
@@ -242,6 +242,7 @@ header {
 
 #testimonios {
     padding: 100px 0;
+    display: none;
 
     h1 {
         @include font-size(4rem);

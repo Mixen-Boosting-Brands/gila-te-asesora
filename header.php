@@ -50,11 +50,11 @@
             <a href="<?php if( is_home() ): ?>#contacto<?php else: ?><?php echo esc_url( home_url() ); ?>#contacto<?php endif; ?>" class="anchor btn btn-primary rounded-pill" id="btn-contacto">Déjame asesorarte</a>
             <div id="social">
                 <ul class="list-inline">
-                    <li class="list-inline-item">
+                    <!-- li class="list-inline-item">
                         <a href="https://www.facebook.com/" target="_blank">
                             <i class="fab fa-facebook"></i>
                         </a>
-                    </li>
+                    </li -->
                     <li class="list-inline-item">
                         <a href="https://www.instagram.com/gilateasesora/" target="_blank">
                             <i class="fab fa-instagram"></i>
@@ -73,7 +73,7 @@
                         <i class="far fa-envelope"></i> <a href="mailto:gila.teasesora@gmail.com">gila.teasesora@gmail.com</a>
                     </li>
                     <li>
-                        <i class="fas fa-phone"></i> <a href="tel:+526144952241">(614) 495 2241</a>
+                        <i class="fas fa-phone"></i> <a href="https://api.whatsapp.com/send?phone=+526144952241&text=Quiero%20ponerme%20en%20contacto%20con%20Gila.%20Vengo%20desde%20la%20p%C3%A1gina%20web" target="_blank">(614) 495 2241</a>
                     </li>
                 </ul>
             </div>

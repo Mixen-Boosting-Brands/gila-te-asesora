@@ -197,7 +197,7 @@
                 <div class="col-lg-6 my-auto text-center">
                     <h1 data-aos="fade-up" data-aos-once="true" data-aos-duration="750" data-aos-delay="250">Trabaja</h1>
                     <h2 data-aos="fade-up" data-aos-once="true" data-aos-duration="750" data-aos-delay="500">a mi lado</h2>
-                    <a class="btn btn-primary btn-lg rounded-pill mt-4 mb-5" href="#" data-aos="fade-up" data-aos-once="true" data-aos-duration="750" data-aos-delay="750">
+                    <a class="btn btn-primary btn-lg rounded-pill mt-4 mb-5" href="https://api.whatsapp.com/send?phone=+526144952241&text=Quiero%20ponerme%20en%20contacto%20con%20Gila.%20Vengo%20desde%20la%20p%C3%A1gina%20web" target="_blank" data-aos="fade-up" data-aos-once="true" data-aos-duration="750" data-aos-delay="750">
                         Envíame tu CV
                     </a>
                 </div>
