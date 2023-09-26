@@ -159,6 +159,8 @@ header {
     background: rgb(247,209,215);
     background: linear-gradient(90deg, rgba(247,209,215,1) 0%, rgba(249,218,224,1) 70%);
     color: $text-primary;
+    position: relative;
+    z-index: 3;
     @include font-size(1.6rem);
     
     h1 {
