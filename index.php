@@ -32,7 +32,7 @@
     </section>
 
     <section id="que-hago" class="py-60">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row d-flex flex-lg-nowrap">
                 <div class="col-lg-6 my-auto">
                     <h1 data-aos="fade-up" data-aos-once="true" data-aos-duration="750"><span>¿</span>Qué hago?</h1>
