@@ -69,9 +69,9 @@ document.addEventListener('keydown', (event) => {
 });
 
 // Escroleo horizontal con mousewheel
-const scrollContainer = document.getElementById("que-hago");
+// const scrollContainer = document.getElementById("que-hago");
 
-scrollContainer.addEventListener("wheel", (evt) => {
-    evt.preventDefault();
-    scrollContainer.scrollLeft += evt.deltaY;
-});
+// scrollContainer.addEventListener("wheel", (evt) => {
+    // evt.preventDefault();
+    // scrollContainer.scrollLeft += evt.deltaY;
+// });
