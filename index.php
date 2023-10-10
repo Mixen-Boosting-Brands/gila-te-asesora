@@ -8,7 +8,7 @@
                         Hola, soy<br>
                         Gila Granillo
                     </h1>
-                    <p data-aos="fade-up" data-aos-once="true" data-aos-duration="750" data-aos-delay="250">Mi misión es guiarte en el camino hacia la certidumbre económica, la resilencia y el empoderamiento.</p>
+                    <p data-aos="fade-up" data-aos-once="true" data-aos-duration="750" data-aos-delay="250">Mi misión es guiarte en el camino hacia la certidumbre económica, la resiliencia y el empoderamiento.</p>
                 </div>
                 <div class="col-md-6 col-lg-4 d-flex align-items-end">
                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/foto-gila.png" alt="Foto de Gila Granillo" class="img-fluid" data-aos="fade-up" data-aos-once="true" data-aos-duration="750" data-aos-delay="500">
